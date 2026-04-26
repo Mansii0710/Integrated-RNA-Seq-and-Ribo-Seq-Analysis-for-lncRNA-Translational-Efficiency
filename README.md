@@ -48,7 +48,7 @@ The diagram summarizes the parallel RNA‑seq and Ribo‑seq pipelines from setu
 ## **Datasets**
 
 ### RNA-seq
-8 paired-end human normal thyroid tissue RNA-seq samples (Total RNA) were provided by a professor at the Department of Bioinformatics, Manipal School of Life Sciences, Manipal Academy of Higher Education, Manipal, India.
+8 paired-end human normal thyroid tissue RNA-seq samples (Total RNA) were provided by my professor at the University.
 
 ### Ribo-seq
 4 single-end Ribo-seq samples from normal human thyroid tissue were obtained from NCBI GEO under accession **[GSE212031](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE212031)**.
