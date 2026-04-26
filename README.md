@@ -132,7 +132,7 @@ STAR --runThreadN 8 \
 --------------------------------------------------
 
 
-**RNA-Seq Workflow**
+### **RNA-Seq Workflow**
 
 1. **Raw Data Handling**
    - FASTQ files obtained and organized
@@ -167,7 +167,7 @@ STAR --runThreadN 8 \
 
 --------------------------------------------------
 
-**Ribo-Seq Workflow**
+### **Ribo-Seq Workflow**
 
 1. **Raw Data Handling**
    - FASTQ files obtained and organized
@@ -205,7 +205,7 @@ STAR --runThreadN 8 \
 
 --------------------------------------------------
 
-**Translational Efficiency (TE) Calculation**
+### **Translational Efficiency (TE) Calculation**
 
 - RNA-Seq TPM and Ribo-Seq TPM datasets are merged
 - Only common transcripts retained
@@ -221,7 +221,7 @@ TE = (Ribo TPM + 1) / (RNA TPM + 1)
 
 --------------------------------------------------
 
-**Annotation**
+### **Annotation**
 
 - lncRNA transcripts annotated using GENCODE reference
 - Information added:
