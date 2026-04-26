@@ -57,10 +57,10 @@ The diagram summarizes the parallel RNA‑seq and Ribo‑seq pipelines from setu
 
 | Sample | Download |
 |--------|----------|
-| SRR21198995 | [fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/095/SRR21198995/SRR21198995_1.fastq.gz) |
-| SRR21198996 | [fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/096/SRR21198996/SRR21198996_1.fastq.gz) |
-| SRR21198997 | [fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/097/SRR21198997/SRR21198997_1.fastq.gz) |
-| SRR21198998 | [fastq.gz](ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/098/SRR21198998/SRR21198998_1.fastq.gz) |
+| SRR21198995 | (ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/095/SRR21198995/SRR21198995_1.fastq.gz) |
+| SRR21198996 | (ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/096/SRR21198996/SRR21198996_1.fastq.gz) |
+| SRR21198997 | (ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/097/SRR21198997/SRR21198997_1.fastq.gz) |
+| SRR21198998 | (ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR211/098/SRR21198998/SRR21198998_1.fastq.gz) |
 
 --------------------------------------------------
 
