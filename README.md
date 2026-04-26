@@ -128,7 +128,7 @@ STAR --runThreadN 8 \
      --genomeFastaFiles GRCh38.fa \
      --sjdbGTFfile gencode.v48.annotation.gtf \
      --sjdbOverhang 100
-
+```
 --------------------------------------------------
 
 
