@@ -42,7 +42,7 @@ The diagram summarizes the parallel RNA‑seq and Ribo‑seq pipelines from setu
 │   └── 2.TEannotate.py          # Annotate TE results with gene metadata (GTF annotation)
 │
 └──README.md  
-
+```
 --------------------------------------------------
 
 ## **Datasets**
@@ -67,7 +67,7 @@ The diagram summarizes the parallel RNA‑seq and Ribo‑seq pipelines from setu
 ## **Environment Setup**
 
 ### **RNA-seq Environment**
-
+```
 bash rna_seq/1.RNA_setup_env.sh 
 ```
 
@@ -83,7 +83,7 @@ bash rna_seq/1.RNA_setup_env.sh
 | Salmon | Quasi-mapping transcript quantification |
 
 ### Ribo-seq Environment
-
+```
 bash ribo_seq/1.Ribo_setup_env.sh 
 ```
 
