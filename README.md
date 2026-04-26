@@ -251,7 +251,7 @@ TE = (Ribo TPM + 1) / (RNA TPM + 1)
 
 --------------------------------------------------
 
-**Requirements**
+## **Requirements**
 
 - Linux / HPC environment
 - Conda / Miniconda
