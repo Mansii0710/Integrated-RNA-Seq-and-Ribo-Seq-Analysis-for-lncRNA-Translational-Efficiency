@@ -116,6 +116,22 @@ bash ribo_seq/1.Ribo_setup_env.sh
 
 ## Workflow Summary
 
+### STAR Index Generation
+
+Before alignment, the genome index must be generated using STAR. This step is performed only once.
+The same STAR genome index generated for RNA-seq is reused for Ribo-seq alignment to ensure consistency between datasets.
+
+```bash
+STAR --runThreadN 8 \
+     --runMode genomeGenerate \
+     --genomeDir star_index \
+     --genomeFastaFiles GRCh38.fa \
+     --sjdbGTFfile gencode.v48.annotation.gtf \
+     --sjdbOverhang 100
+
+--------------------------------------------------
+
+
 **RNA-Seq Workflow**
 
 1. **Raw Data Handling**
@@ -166,7 +182,7 @@ bash ribo_seq/1.Ribo_setup_env.sh
 
 4. **rRNA Removal**
    - SortMeRNA removes contaminating rRNA reads
-   - Uses SILVA (18S/28S) and Rfam (5S/5.8S) databases
+   - Uses SILVA (18S/28S) and Rfam (5S/5.8S) databases (explained in file - ribo_seq/4.sortmernaindex.txt)
    - Ensures only translation-relevant reads are retained
 
 5. **Alignment**
